@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%; 
+    height:100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+
+}
+h2{
+    position: absolute;
+    padding: 15px 25px;
+
+}
+h1{
+    position: absolute;
+    padding: 73px 25px;
+}
+img{
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)  1s;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    cursor: pointer;
+    /* filter: grayscale(70%); */
+}
+#a{
+    position: absolute;
+    left: 16%;
+    top: 50%;
+}
+#aa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#aaa{
+    position: absolute;
+    left: 84.5%;
+    top: 50%;
+}
+img:hover{
+    filter: grayscale(0%);
+    height: 45%;
+}
+#lyn{
+    position: absolute;
+    width: 85px;
+    height: 2px;
+    background-color: orange;
+    left: 2.5%;
+    top: 10%;
+    /* color: orange; */
+}
+#a1{
+    position: absolute;
+    top: 75%;
+    left: 6%;
+    color: green;
+}
+#aa2{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    color: green;
+}
+#aaa3{
+    position: absolute;
+    top: 75%;
+    left: 75.5%;
+    color: green;
+}
+#c{
+    position: absolute;
+    top: 81%;
+    left: 11.8%;
+    width: 110px;
+    height: 32px;
+    border: none;
+    background-color: orange;
+
+}
+#b{
+    position: absolute;
+    top: 81%;
+    left: 45.5%;
+    width: 110px;
+    height: 32px;
+    border: none;
+    background-color: orange;
+}
+#b1{
+    position: absolute;
+    top: 81%;
+    left: 83%;
+    width: 110px;
+    height: 32px;
+    border: none;
+    background-color: orange;
+}
+button{
+    position: absolute;
+    top: 95%;
+    left: 44%;
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+}
